@@ -1,0 +1,50 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+
+.img5 {
+  background-image: url("http://s1.bwallpapers.com/wallpapers/2014/01/22/black-desktop-wallpaper_044727273.jpg");
+  height: 130%;
+}
+.img6 {
+  background-image: url("https://swiftmomentum.com/wp-content/uploads/2013/03/futuristic-technology-background-loop-abstract-line-and-polygon-animation-4k-seamless-3840x2160-cropped-1920x1080.jpg");
+}
+
+.container {
+  margin: 50px;
+  color: white;
+  position: relative;
+  left: 155px;
+}
+
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 700px;
+  padding: 20px;
+  text-align: center;
+}
